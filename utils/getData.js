@@ -1,18 +1,16 @@
-import path from 'node:path'
 import fs from 'node:fs/promises'
+import path from 'node:path'
 
 export async function getData() {
 
-  try {
+  try { 
     const pathJSON = path.join('data', 'data.json')
     const data = await fs.readFile(pathJSON, 'utf8')
     const parsedData = JSON.parse(data)
     return parsedData
 
-  } catch (err) {
+  } catch(err) {
     console.log(err)
     return []
   }
-  
-  return 'I am from getData()!'
 }
