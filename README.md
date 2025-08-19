@@ -2,9 +2,11 @@
 
 A simple Node.js application for handling files and serving static content.
 
+![Screenshot](./public/images/screenshot.png)
+
 ## Description
 
-This project is a basic Node.js server that allows reading and writing files, managing file paths, serving static assets, and sanitizing user input.
+This project is a basic Node.js server that powers an online platform about paranormal sightings. Users can submit their own experiences and explore reports from others. It supports reading and writing files, managing file paths, serving static assets, and sanitizing user input.
 
 ## Features
 
